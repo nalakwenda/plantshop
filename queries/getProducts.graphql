@@ -1,0 +1,37 @@
+query getProducts($first: Int = 0){
+  products(first: $first) {
+    edges {
+      node {
+        id
+        name
+        pricing {
+          priceRange {
+            start {
+              gross {
+                amount
+                currency
+              }
+            }
+          }
+          discount {
+            gross {
+              amount
+              currency
+            }
+          }
+          priceRangeUndiscounted {
+            start {
+              gross {
+                amount
+                currency
+              }
+            }
+          }
+        }
+        thumbnail {
+          url
+        }
+      }
+    }
+  }
+}
