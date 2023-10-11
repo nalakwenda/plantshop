@@ -1,3 +1,7 @@
+
+![plant - 1](https://github.com/nalakwenda/plantshop/assets/47489747/add0a9ef-c08d-4b63-84e4-d5d798708c15)
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
